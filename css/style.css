@@ -391,6 +391,13 @@ button h1 {
 }
 
 @media (max-width: 576px) {
+    .logo {
+        max-width: 4em;
+        margin-left: 1em;
+    }
+    .navbar-nav {
+        margin-right: 1em;
+    }
 
     .navbar-nav {
         display: flex;
