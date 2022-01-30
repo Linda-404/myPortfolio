@@ -154,11 +154,7 @@ nav a {
 }
 .large {
     font-family: 'Space Mono', monospace;
-    /* color: var(--green); */
     font-weight: 700;
-    /* -webkit-text-fill-color: var(--green);
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: var(--green); */
 }
 .large-bg {
     font-family: 'Space Mono', monospace;
@@ -426,12 +422,18 @@ button h1 {
     .arrow {
         display: none;
     }
-
     .desktop-contact {
         display: none;
     }
+    .home-content__menu {
+        flex-direction: column;
+    }
+    .icon-container {
+        margin-bottom: 0.5em;
+    }
     .icon-text {
         font-weight: 700;
+        padding-top: 0.1em;
     }
 
     .content-wrapper {
