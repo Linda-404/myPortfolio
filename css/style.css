@@ -430,6 +430,9 @@ button h1 {
     .desktop-contact {
         display: none;
     }
+    .icon-text {
+        font-weight: 700;
+    }
 
     .content-wrapper {
         padding: 0.5em;
