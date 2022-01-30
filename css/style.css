@@ -253,13 +253,12 @@ footer {
     align-items: center;
     font-weight: 500;
     font-size: 16px;
-    /* color: var(--hotpink); */
 }
 
 .footer-content {
     background-color: var(--text-color1);
     padding: 1em 1em 1em 1em;
-    /* border-radius: 25% 25% 0% 0%; */
+    margin-top: 1em;
 }
 
 .footer {
@@ -270,14 +269,12 @@ footer {
 /* --biopage-- */
 
 .content-wrapper {
-    /* padding-top: 2em; */
     padding: 2em;
     display:flex;
 	align-items: flex-start;
     flex-direction: column;
 }
 .content-wrapper .content-container {
-    /* background-color: violet; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -439,9 +436,6 @@ button h1 {
         align-items: center;
         font-weight: 500;
         font-size: 16px;
-        /* background-color: var(--text-color1);
-        padding: 1em 1em 1em 1em; */
-        /* color: var(--hotpink); */
     }
     
 }
