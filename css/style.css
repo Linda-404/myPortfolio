@@ -96,19 +96,19 @@ body {
 .navbar-toggler {
     margin-right: 2em;
     padding: 0;
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     color: var(--hotpink);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .navbar-toggler-icon {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     padding: 0;
     color: var(--text-color2);
-    font-size: 30px;
+    font-size: 40px;
 }
 .active {
     color: var(--hotpink);
@@ -391,12 +391,11 @@ button h1 {
 @media (max-width: 576px) {
     .logo {
         max-width: 4em;
-        margin-left: 1em;
+        margin-left: 0.5em;
     }
-    .navbar-nav {
+    .navbar-toggler {
         margin-right: 1em;
     }
-
     .navbar-nav {
         display: flex;
         flex-direction: column;
@@ -427,8 +426,15 @@ button h1 {
     .desktop-contact {
         display: none;
     }
+
     .content-wrapper {
         padding: 0.5em;
+    }
+    .bubble, p {
+        font-size: 16px;
+    }
+    .bio-text p {
+        font-size: 25px;
     }
     .profile__img {
         max-width: 100%;
@@ -437,9 +443,9 @@ button h1 {
     }
     .profile__text {
         margin-top: 1em;
-        padding: 2em;
+        padding: 1em;
         max-width: 100%;
-        border-radius: 15% 15%;
+        border-radius: 10% 10%;
     }
     
     .card {
